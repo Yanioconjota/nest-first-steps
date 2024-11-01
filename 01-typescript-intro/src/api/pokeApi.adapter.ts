@@ -5,6 +5,7 @@ export interface HttpAdapter {
   get<T>(url: string): Promise<T>;
 }
 
+/* The code defines two classes, `PokeApiFetchAdapter` and `PokeApiAdapter`, implementing an HTTP adapter interface with methods for fetching data using `fetch` and `axios` respectively. */
 export class PokeApiFetchAdapter implements HttpAdapter {
   async get<T>(url: string): Promise<T> {
     const resp = await fetch(url);
