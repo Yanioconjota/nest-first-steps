@@ -35,4 +35,4 @@ export const charmander = new Pokemon(4, 'Charmander');
 console.log(charmander);
 charmander.scream();
 
-charmander.getMoves()
+charmander.getMoves();
