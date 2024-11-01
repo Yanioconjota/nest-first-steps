@@ -1,6 +1,4 @@
-import './style.css'
-import typescriptLogo from './typescript.svg'
-import viteLogo from '/vite.svg'
+import './style.css';
 import { setupCounter } from './counter.ts'
 // import { bulbasaur, pokemons } from './bases/02-objects';
 // import { name, age } from './bases/01-types';
